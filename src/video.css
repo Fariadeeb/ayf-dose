@@ -1,0 +1,105 @@
+.container1 {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* agar rasio 16:9 */
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 10;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.App {
+  width: 1024px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.deskripsi {
+  margin-top: -10px;
+  color: #696969;
+  font-family: "Inter", sans-serif;
+}
+h1 {
+  color: #000000;
+}
+.App > div {
+  justify-content: left;
+}
+
+.App > div > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+}
+
+.cardd {
+  height: 20rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.cardd > .img-wrapper {
+  height: 50%;
+}
+
+.cardd > .img-wrapper > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.cardd > div:last-child {
+  padding: 0.5rem;
+  height: 50%;
+}
+
+.cardd > div > h3 {
+  font-size: 0.9rem;
+}
+
+.cardd > div > p {
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.cardd > div > a {
+  text-decoration: none;
+  padding: 0.2rem 0.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  color: inherit;
+  font-weight: 700;
+  font-size: 0.8rem;
+  display: inline-block;
+}
+
+.blog > h3 {
+  margin-bottom: 1rem;
+}
+
+.blog * {
+  width: 100%;
+}
+
+.btn {
+  display: inline;
+  padding: 0.5rem 2rem;
+  margin: 0.7rem 0;
+  width: auto;
+  background: #fff;
+  border: 1px solid rgb(0, 0, 0);
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 600;
+}
